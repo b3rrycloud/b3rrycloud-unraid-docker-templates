@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Adaptec-MSM</Name>
+  <Repository>nheinemans/storman</Repository>
+  <Registry>https://hub.docker.com/r/nheinemans/storman</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project>https://github.com/nheinemans/docker-storman</Project>
+  <Overview>DESCRIPTION&#xD;
+This is a container running the Adaptec MaxView Storage Manager application and the necessary daemons (cimserver and agent). With this container, you can manage an Adaptec RAID HBA cards on the dockerhost. &#xD;
+It is based on Centos 6 and Adaptec MSM version 2.00.21811.&#xD;
+&#xD;
+NOTES&#xD;
+&#x2022; It should be run privileged, in order to have access to the hardware and insert the necessary kernel modules.&#xD;
+&#x2022; Invoke arcconf CLI by executing "/bin/arcconf" in the containers console. &#xD;
+&#x2022; Tested and known to be working with Adaptec 71605, but probably works with all 7-series cards.&#xD;
+&#x2022; Template is not published by the author of this image. &#xD;
+&#xD;
+LOGIN&#xD;
+user=root, &#xD;
+password=root&#xD;
+&#xD;
+VERSION&#xD;
+2.00.21811</Overview>
+  <Category>Tools:</Category>
+  <WebUI>https://[IP]:[PORT:8443]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/b3rrycloud/unraid-docker-templates/refs/heads/main/docker_icons/adaptec_maxview_storage_manager/maxView_logoStack_trans_small_background.png</Icon>
+  <ExtraParams>--user=root</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738117330</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose webUI host port." Type="Port" Display="always" Required="true" Mask="false">8443</Config>
+</Container>

@@ -36,5 +36,5 @@ VERSION&#xD;
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose webUI host port." Type="Port" Display="always" Required="true" Mask="false">8443</Config>
+  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose host port for the webUI." Type="Port" Display="always" Required="true" Mask="false">8443</Config>
 </Container>

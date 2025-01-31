@@ -28,7 +28,7 @@ VERSION&#xD;
   <Category>Tools:</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/b3rrycloud/unraid-docker-templates/refs/heads/main/docker_icons/adaptec_maxview_storage_manager/maxView_logoStack_trans_small_background.png</Icon>
+  <Icon>https://raw.githubusercontent.com/b3rrytech/unraid-docker-templates/refs/heads/main/docker_icons/adaptec_maxview_storage_manager/maxView_logoStack_trans_small_background.png</Icon>
   <ExtraParams>--user=root</ExtraParams>
   <PostArgs/>
   <CPUset/>

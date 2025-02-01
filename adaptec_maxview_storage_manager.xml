@@ -10,7 +10,7 @@
   <Support/>
   <Project>https://github.com/nheinemans/docker-storman</Project>
   <Overview>DESCRIPTION&#xD;
-This is a container running the Adaptec MaxView Storage Manager application and the necessary daemons (cimserver and agent). With this container, you can manage an Adaptec RAID HBA cards on the dockerhost. &#xD;
+This is a container running the Adaptec MaxView Storage Manager application and the necessary daemons (cimserver and agent). With this container, you can manage Adaptec RAID HBA cards on the dockerhost. &#xD;
 It is based on Centos 6 and Adaptec MSM version 2.00.21811.&#xD;
 &#xD;
 NOTES&#xD;
@@ -24,7 +24,10 @@ user=root, &#xD;
 password=root&#xD;
 &#xD;
 VERSION&#xD;
-2.00.21811</Overview>
+2.00.21811&#xD;
+&#xD;
+TEMPLATE&#xD;
+@b3rrytech</Overview>
   <Category>Tools:</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL/>
@@ -32,9 +35,9 @@ VERSION&#xD;
   <ExtraParams>--user=root</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1738117330</DateInstalled>
+  <DateInstalled>1738373052</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose host port for the webUI." Type="Port" Display="always" Required="true" Mask="false">8443</Config>
+  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose webUI host port." Type="Port" Display="always" Required="true" Mask="false">8444</Config>
 </Container>

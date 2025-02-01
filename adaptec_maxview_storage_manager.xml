@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>true</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/186171-support-b3rrytechs-template-repository/</Support>
   <Project>https://github.com/nheinemans/docker-storman</Project>
   <Overview>DESCRIPTION&#xD;
 This is a container running the Adaptec MaxView Storage Manager application and the necessary daemons (cimserver and agent). With this container, you can manage Adaptec RAID HBA cards on the dockerhost. &#xD;
@@ -35,9 +35,9 @@ TEMPLATE&#xD;
   <ExtraParams>--user=root</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1738373052</DateInstalled>
+  <DateInstalled>1738373397</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose webUI host port." Type="Port" Display="always" Required="true" Mask="false">8444</Config>
+  <Config Name="WebUI port" Target="8443" Default="8443" Mode="tcp" Description="Choose webUI host port." Type="Port" Display="always" Required="true" Mask="false">8443</Config>
 </Container>
